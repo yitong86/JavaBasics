@@ -7,9 +7,11 @@ public class Main {
         String firstName = "yitong";
         String lastName = "Jiang";
         String fullName = "yitong Jiang";
-        System.out.println(fullName);
-        creatFullName("yitong","jiang");
-        System.out.println(firstName + " " + lastName);
+        //System.out.println(fullName);
+        //creatFullName("yitong","jiang");
+       // System.out.println(firstName + " " + lastName);
+       NameGenerator.generateFullName("yitong","jiang");
+
     }
     public static String creatFullName(String firstName,String lastName) {
          return firstName + " " + lastName;

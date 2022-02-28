@@ -10,7 +10,8 @@ public class Main {
         //System.out.println(fullName);
         //creatFullName("yitong","jiang");
        // System.out.println(firstName + " " + lastName);
-       NameGenerator.generateFullName("yitong","jiang");
+        NameGenerator fullName1 = new NameGenerator();
+        fullName1.generateFullName("yitong","jiang");
 
     }
     public static String creatFullName(String firstName,String lastName) {
